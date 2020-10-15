@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Congratulations</title>
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-column">
+            <h2>Congrats, You finished the Quiz</h2>
+          <h1 id="finalScore"></h1>
+          <form>
+              <input type="text" name="username" id="username" placeholder="username">
+              <button disabled type="submit" id="saveScore" class="btn" onclick="submitScore(event)">Save</button>
+            </form>
+            <a class="btn" href="game.html" class="play">Play Again</a>
+            <a class="btn" href="index.html" class="play">Go Home</a>
+        </div>
+    </div>
+
+    <script src="end.js"></script>
+</body>
+</html>

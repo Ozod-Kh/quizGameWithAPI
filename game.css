@@ -1,0 +1,108 @@
+.choice-container {
+	display: flex;
+	margin-bottom: 0.1rem;
+	width: 100%;
+	border: 0.1 rem solid rgb(36, 3, 37);
+	font-size: 1.8rem;
+	background-color: white;
+}
+
+.choice-container:hover {
+	cursor: pointer;
+	box-shadow: 0 0.4rem 1.4rem 0.2rem rgb(15, 21, 77);
+	transform: translateY(-0.1rem);
+	transition: transform 150ms;
+}
+
+.choice-prefix {
+	padding: 1.5rem 2.5rem;
+	background-color: teal;
+	color: white;
+}
+
+.choice-text {
+	padding: 1.5rem;
+	width: 100%;
+}
+
+.correct {
+	background-color: green;
+}
+
+.incorrect {
+	background-color: red;
+}
+
+#hud {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.hud-prefix {
+	text-align: center;
+	font-size: 2rem;
+}
+
+.hud-text {
+	text-align: center;
+}
+
+#progressBar {
+	width: 20rem;
+	height: 4rem;
+	border: 0.3rem solid blue;
+}
+
+#progressBarMeasure {
+	height: 3.5rem;
+	background-color: blue;
+
+	width: 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+input {
+	margin-bottom: 1.2rem;
+	width: 20rem;
+	padding: 1.5rem;
+	border: none;
+	font-size: 1.8rem;
+	border-radius: 25px;
+	box-shadow: 0.1rem 0.1rem 0.4rem 0.4rem rgb(69, 69, 75);
+	outline: none;
+}
+
+/*Scores page styling*/
+
+#list {
+	font-size: 2.7rem;
+}
+
+#list li {
+	list-style-type: none;
+	margin: 3rem 0;
+	font-style: italic;
+	color: rgb(56, 4, 63);
+	padding: 0.5rem;
+}
+
+#list li:hover {
+	transform: scale(1.02);
+	box-shadow: 0 0.1rem 4rem 0.5rem rgb(77, 78, 77);
+	outline: none;
+}
+
+/*Styling for the loader*/
+
+#loader {
+	border: 1.4rem solid white;
+	border-radius: 50%;
+	border-top: blue;
+}
