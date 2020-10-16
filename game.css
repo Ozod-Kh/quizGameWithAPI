@@ -106,3 +106,46 @@ input {
 	border-radius: 50%;
 	border-top: blue;
 }
+
+@media only screen and (max-width: 600px) {
+	.choice-container {
+		width: 90%;
+		font-size: 1.3rem;
+	}
+
+	.hud-prefix,
+	.hud-text {
+		font-size: 2.5rem;
+	}
+
+	#question {
+		font-size: 0.5rem;
+		margin: 0 10px;
+	}
+
+	.choice-prefix,
+	.choice-text {
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.choice-container {
+		width: 100%;
+		font-size: 1rem;
+		margin-top: 10px;
+	}
+	.hud-prefix,
+	.hud-text {
+		font-size: 2.2rem;
+	}
+
+	#question {
+		font-size: 2rem;
+		margin: 0 10px;
+	}
+	.choice-prefix,
+	.choice-text {
+		font-size: 1.5rem;
+	}
+}

@@ -87,8 +87,7 @@ choices.forEach(choice =>{
 
         const selectedChoice = e.target
         const selectedAnswer = parseInt(selectedChoice.dataset['number'])
-        console.log( selectedAnswer);
-        console.log(currentQuestion.answerIndex);
+        
         
     
         let answerClass= selectedAnswer == currentQuestion.answerIndex ? 'correct' : 'incorrect'

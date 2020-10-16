@@ -88,3 +88,35 @@ h3 {
 	box-shadow: none;
 	transform: none;
 }
+
+@media only screen and (max-width: 600px) {
+	.choice-container {
+		width: 70%;
+		font-size: 1.3rem;
+	}
+
+	.btn {
+		width: 15rem;
+		font-size: 1.6rem;
+	}
+
+	h1 {
+		font-size: 4.4rem;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.choice-container {
+		width: 70%;
+		font-size: 1rem;
+	}
+
+	.btn {
+		width: 13rem;
+		font-size: 1.3rem;
+	}
+
+	h1 {
+		font-size: 3.4rem;
+	}
+}
