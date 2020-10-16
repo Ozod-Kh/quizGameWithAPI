@@ -8,18 +8,7 @@ scores.map(item =>{
   return list.innerHTML += `<li>Name : ${item.name} , Score: ${item.score}</li>`
 }) 
 
-// scoresList.forEach(element => {
-//       list.innerHTML = element
-// });
-
-
-
-
- 
-
  
 }
 
-// scores.map(item =>{
-    
-// })
+ 

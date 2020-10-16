@@ -24,7 +24,7 @@ submitScore = e =>{
   highScores.splice(5)
   localStorage.setItem('highScores', JSON.stringify(highScores))
   setTimeout(() => {
-    window.location.assign('/')
+    window.location.assign('index.html')
   }, 500);
 }
 
